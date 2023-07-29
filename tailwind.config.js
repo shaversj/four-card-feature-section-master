@@ -24,7 +24,7 @@ export default {
   plugins: [],
   safelist: [
     "border-t-red",
-    "bborder-t-cyan",
+    "border-t-cyan",
     "border-t-orange",
     "border-t-blue",
   ],
