@@ -8,10 +8,10 @@ export default {
         lg: "1440px",
       },
       colors: {
-        "my-red": "hsl(0, 78%, 62%)",
-        "my-cyan": "hsl(180, 62%, 55%)",
-        "my-orange": "hsl(34, 97%, 64%)",
-        "my-blue": "hsl(212, 86%, 64%)",
+        red: "hsl(0, 78%, 62%)",
+        cyan: "hsl(180, 62%, 55%)",
+        orange: "hsl(34, 97%, 64%)",
+        blue: "hsl(212, 86%, 64%)",
         "very-dark-blue": "hsl(234, 12%, 34%)",
         "grayish-blue": "hsl(229, 6%, 66%)",
         "very-light-gray": "hsl(0, 0%, 98%)",
@@ -22,4 +22,10 @@ export default {
     },
   },
   plugins: [],
+  safelist: [
+    "border-t-red",
+    "bborder-t-cyan",
+    "border-t-orange",
+    "border-t-blue",
+  ],
 };
